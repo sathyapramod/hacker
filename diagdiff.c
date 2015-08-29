@@ -11,7 +11,7 @@
         scanf("%d",&a[i][j]);
          if(i==j)
           sum1=sum1+a[i][j];
-          else if(i+j==n-1)
+         if(i+j==n-1)
            sum2=sum2+a[i][j];
         }
       }
